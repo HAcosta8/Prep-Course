@@ -72,22 +72,23 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-   If (str1.length == str2.length); {
+   if (str1.length == str2.length); {
     return true;
      }
-  Else {
+  else {
     return false;
   }
+   
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  If (num < 90){
+  if (num < 90){
     return true;
   }
-  Else{
+  else{
     return false;
   }
 }
@@ -96,10 +97,10 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  If (num > 50) {
+  if (num > 50) {
     return true;
     }
-  Else {
+  else {
     return false;
   }
 }
@@ -115,10 +116,10 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  If (num % 2 == 0){
+  if (num % 2 == 0){
     return true;
   }
- Else { 
+ else { 
   return false;
   } 
 }
@@ -127,10 +128,10 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  If (num % 2 == 1) {
+  if (num % 2 == 1) {
     return true;
   }
-  Else {
+  else {
     return false;
   }
 }
@@ -182,7 +183,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  If (numero == 0) {
+  if (numero == 0) {
     return false;
   }
   if (numero % 2 == 1) {
