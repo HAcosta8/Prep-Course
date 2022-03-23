@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Hernan";
+const nuevaString = ("Hernan");
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 8;
@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-   If (str1.length == str2.length) {
+   If (str1.length == str2.length); {
     return true;
      }
   Else {
